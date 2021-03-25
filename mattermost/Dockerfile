@@ -1,4 +1,4 @@
-FROM mattermost/mattermost-team-edition:5.32.0
+FROM mattermost/mattermost-team-edition:5.33.2
 
 USER root
 RUN apk --update add jq && \
